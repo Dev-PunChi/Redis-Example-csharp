@@ -21,22 +21,6 @@ namespace Ex.RedisTest
             db.StringSet("hello", "world");
             db.StringSet("code", "hard");
             db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-            db.StringSet("redis", "easy");
-
-
-
 
             string value = db.StringGet("test");
             Console.WriteLine(value);
