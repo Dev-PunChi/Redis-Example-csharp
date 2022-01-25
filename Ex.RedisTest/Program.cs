@@ -17,8 +17,22 @@ namespace Ex.RedisTest
             var pong = await db.PingAsync();
             Console.WriteLine(pong);
 
+
             db.StringSet("hello", "world");
             db.StringSet("code", "hard");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
+            db.StringSet("redis", "easy");
             db.StringSet("redis", "easy");
 
 
